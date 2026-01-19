@@ -140,7 +140,7 @@ const Hero = () => {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.2 }}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-50 dark:bg-primary-900/30 border border-primary-200 dark:border-primary-800 mb-8"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-50 dark:bg-primary-900/30 border border-primary-200 dark:border-primary-800 mb-6 md:mb-8"
           >
             <Sparkles className="w-4 h-4 text-primary-600" />
             <span className="text-sm font-medium text-primary-700 dark:text-primary-300">
@@ -148,7 +148,7 @@ const Hero = () => {
             </span>
           </motion.div>
 
-          <h1 className="text-5xl md:text-6xl font-bold mb-4">
+          <h1 className="text-4xl md:text-6xl font-bold mb-4">
             <span className="bg-linear-to-r from-primary-600 via-blue-600 to-purple-600 bg-clip-text text-transparent bg-size-[200%_auto] animate-gradient">
               Vusumzi Msengana
             </span>
@@ -163,12 +163,10 @@ const Hero = () => {
                 1000,
                 "Tech Enthusiast",
                 1000,
-                "Open Source Contributor",
-                1000,
               ]}
               wrapper="span"
               speed={50}
-              className="text-2xl md:text-3xl text-gray-600 dark:text-gray-300"
+              className="text-xl md:text-3xl text-gray-600 dark:text-gray-300"
               repeat={Infinity}
             />
           </div>
@@ -177,21 +175,19 @@ const Hero = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4, duration: 0.6 }}
-            className="text-lg text-gray-500 dark:text-gray-400 max-w-2xl mx-auto mb-8"
+            className="text-base md:text-lg text-gray-500 dark:text-gray-400 max-w-2xl mx-auto mb-6 md:mb-8"
           >
-            I build mission-critical software that scales. As a Software
-            Engineer ex-Amazon, I bridge the gap between complex backend logic
-            and intuitive user experiences. I use React, Java, and Python to
-            build resilient systems that simplify operations and drive
-            efficiency. I prioritise clean architecture, automated testing, and
-            operational excellence in every line of code.
+            I build mission-critical software that scales. Ex-Amazon, I turn
+            complex backend systems into intuitive user experiences using React,
+            Java, and Python—prioritising clean architecture, automated testing,
+            observability, and operational excellence.
           </motion.p>
 
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6, duration: 0.6 }}
-            className="flex flex-wrap justify-center gap-4 mb-12"
+            className="flex flex-wrap justify-center gap-4 mb-6 md:mb-12"
           >
             {contactLinks.map((link, index) => (
               <motion.a
@@ -215,13 +211,20 @@ const Hero = () => {
               </motion.a>
             ))}
           </motion.div>
+          <motion.a
+            href="#projects"
+            className="md:hidden inline-flex items-center gap-2 px-5 py-3 rounded-full border border-gray-200 dark:border-gray-700 text-gray-700 dark:text-gray-300 hover:border-primary-600 dark:hover:border-primary-400 hover:text-primary-600 dark:hover:text-primary-400 transition-all duration-200"
+          >
+            <ArrowDown className="w-4 h-4" />
+            <span className="text-sm font-medium">View Projects</span>
+          </motion.a>
         </motion.div>
       </div>
       {isArrowVisible && (
         <motion.div
           animate={{ y: [0, 10, 0] }}
           transition={{ repeat: Infinity, duration: 2 }}
-          className="fixed bottom-8 left-1/2 transform -translate-x-1/2 z-50"
+          className="hidden md:block fixed bottom-8 left-1/2 transform -translate-x-1/2 z-50"
         >
           <span>
             <a
