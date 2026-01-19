@@ -75,13 +75,16 @@ const Navbar = () => {
     <nav className="fixed top-0 w-full bg-white/80 dark:bg-gray-950/80 backdrop-blur-md z-50 border-b border-gray-200 dark:border-gray-800">
       <div className="section-container">
         <div className="flex items-center justify-between h-16">
-          <motion.div
+          <motion.a
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
-            className="text-xl font-bold gradient-text"
+            href="#home"
+            onClick={() => setIsOpen(false)}
+            aria-label="Go to home"
+            className="text-lg md:text-xl font-bold gradient-text tracking-tight opacity-95"
           >
-            VM
-          </motion.div>
+            iamvusumzi.
+          </motion.a>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-6">
