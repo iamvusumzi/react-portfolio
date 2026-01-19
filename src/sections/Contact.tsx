@@ -63,10 +63,10 @@ const Contact = () => {
           className="max-w-3xl mx-auto"
         >
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-800 dark:text-gray-200">
+            <h2 className="text-2xl md:text-4xl font-bold mb-4 text-gray-800 dark:text-gray-200">
               Get In Touch
             </h2>
-            <p className="text-lg text-gray-600 dark:text-gray-400">
+            <p className="text-base md:text-lg text-gray-600 dark:text-gray-400">
               Have a project in mind or just want to chat? Feel free to reach
               out!
             </p>
@@ -80,7 +80,7 @@ const Contact = () => {
                     <Mail className="text-primary-600" size={24} />
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-200">
+                    <h3 className="text-base md:text-lg font-semibold text-gray-800 dark:text-gray-200">
                       Email
                     </h3>
                     <a

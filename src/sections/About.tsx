@@ -11,13 +11,13 @@ const About = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-800 dark:text-gray-200">
+          <h2 className="text-2xl md:text-4xl font-bold mb-4 text-gray-800 dark:text-gray-200">
             About Me
           </h2>
 
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
+              <p className="text-base md:text-lg text-gray-600 dark:text-gray-300 mb-6">
                 I am a Software Engineer specialising in mission-critical
                 control planes and cloud-native solutions. With a background at
                 Amazon (EC2), I bridge full-stack development (React,
@@ -25,7 +25,7 @@ const About = () => {
                 deliver reliable, production-ready software solutions.
               </p>
 
-              <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
+              <p className="text-base md:text-lg text-gray-600 dark:text-gray-300 mb-6">
                 My focus is on abstracting complex, high-risk operations into
                 user-friendly platforms. I design resilient systems for
                 automation and real-time observability, ensuring operators have
@@ -34,7 +34,7 @@ const About = () => {
               </p>
 
               <div className="mt-8">
-                <h3 className="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">
+                <h3 className="text-lg md:text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">
                   Currently Learning
                 </h3>
                 <div className="flex flex-wrap gap-2">
@@ -56,7 +56,7 @@ const About = () => {
             </div>
 
             <div>
-              <h3 className="text-xl font-semibold mb-6 text-gray-800 dark:text-gray-200">
+              <h3 className="text-lg md:text-xl font-semibold mb-6 text-gray-800 dark:text-gray-200">
                 Skills & Technologies
               </h3>
               <div className="flex flex-wrap gap-3">

@@ -12,7 +12,7 @@ const Education = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-gray-800 dark:text-gray-200">
+          <h2 className="text-2xl md:text-4xl font-bold mb-12 text-gray-800 dark:text-gray-200">
             Education
           </h2>
 
@@ -32,7 +32,7 @@ const Education = () => {
                   </div>
 
                   <div>
-                    <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200 mb-1">
+                    <h3 className="text-lg md:text-xl font-semibold text-gray-800 dark:text-gray-200 mb-1">
                       {edu.institution}
                     </h3>
                     <p className="text-primary-600 dark:text-primary-400 mb-2">

@@ -12,7 +12,7 @@ const Experience = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-gray-800 dark:text-gray-200">
+          <h2 className="text-2xl md:text-4xl font-bold mb-12 text-gray-800 dark:text-gray-200">
             Work Experience
           </h2>
 
@@ -30,7 +30,7 @@ const Experience = () => {
                   <div>
                     <div className="flex items-center gap-2 mb-2">
                       <Briefcase className="text-primary-600" size={20} />
-                      <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">
+                      <h3 className="text-lg md:text-xl font-semibold text-gray-800 dark:text-gray-200">
                         {exp.role}
                       </h3>
                     </div>

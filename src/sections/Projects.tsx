@@ -13,7 +13,7 @@ const Projects = () => {
           transition={{ duration: 0.5 }}
         >
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 dark:text-gray-200">
+            <h2 className="text-2xl md:text-4xl font-bold text-gray-800 dark:text-gray-200">
               Featured Projects
             </h2>
             <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0">
@@ -50,7 +50,7 @@ const Projects = () => {
                     {project.title}
                   </h3>
 
-                  <p className="text-gray-600 dark:text-gray-300 mb-4">
+                  <p className="text-basetext-gray-600 dark:text-gray-300 mb-4">
                     {project.description}
                   </p>
 
