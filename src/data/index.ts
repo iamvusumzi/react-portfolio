@@ -33,7 +33,16 @@ export const experience: Experience[] = [
       'Reduced Engineering Support Load: Designed and built the "Workflow Blockage Signaling" feature, which analyzed complex error states and guided customers to self-resolution, significantly reducing the volume of manual support tickets.',
       "Enhanced System Reliability: Improved critical operational hygiene by refactoring legacy Java logic and implementing automated self-healing fixes for recurring host errors, creating a more predictable and resilient control plane.",
     ],
-    tech: ["TypeScript", "React", "Node.js", "AWS", "Docker"],
+    tech: [
+      "Java",
+      "Python",
+      "Rugby on Rails",
+      "React",
+      "CI/CD",
+      "Linux",
+      "Bash",
+      "JSON Query Language",
+    ],
   },
   {
     company: "University of the Western Cape",
