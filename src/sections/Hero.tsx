@@ -3,6 +3,7 @@ import {
   ArrowDown,
   Github,
   Linkedin,
+  Phone,
   Mail,
   FileText,
   Sparkles,
@@ -23,6 +24,7 @@ const Hero = () => {
     { icon: <Github />, href: contactInfo.github, label: "GitHub" },
     { icon: <Linkedin />, href: contactInfo.linkedin, label: "LinkedIn" },
     { icon: <Mail />, href: `mailto:${contactInfo.email}`, label: "Email" },
+    { icon: <Phone />, href: `tel:${contactInfo.phone}`, label: "Phone" },
     {
       icon: <FileText />,
       href: "https://cvdesignr.com/p/68dfa3dac5f83",

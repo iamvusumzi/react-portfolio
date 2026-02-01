@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, MessageSquare, Send } from "lucide-react";
+import { Mail, MessageSquare, Phone, Send } from "lucide-react";
 import { useState } from "react";
 import { contactInfo } from "../data";
 
@@ -75,6 +75,23 @@ const Contact = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <div>
               <div className="mb-8">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="p-3 bg-primary-100 dark:bg-primary-900/30 rounded-lg">
+                    <Phone className="text-primary-600" size={24} />
+                  </div>
+                  <div>
+                    <h3 className="text-base md:text-lg font-semibold text-gray-800 dark:text-gray-200">
+                      Phone
+                    </h3>
+                    <a
+                      href={`tel:${contactInfo.phone}`}
+                      className="text-primary-600 dark:text-primary-400 hover:underline"
+                    >
+                      {contactInfo.phone}
+                    </a>
+                  </div>
+                </div>
+
                 <div className="flex items-center gap-3 mb-4">
                   <div className="p-3 bg-primary-100 dark:bg-primary-900/30 rounded-lg">
                     <Mail className="text-primary-600" size={24} />

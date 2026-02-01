@@ -137,6 +137,7 @@ export const skills: string[] = [
 
 export const contactInfo = {
   email: "vmsengana2@gmail.com",
+  phone: "+27 72 366 3216",
   github: "https://github.com/iamvusumzi",
   linkedin: "https://linkedin.com/in/iamvusumzi",
   twitter: "https://x.com/iamvusumzi",

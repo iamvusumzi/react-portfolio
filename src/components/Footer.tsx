@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { Github, Linkedin, Mail, Twitter, Phone } from "lucide-react";
 import { contactInfo } from "../data";
 
 const Footer = () => {
@@ -18,6 +18,11 @@ const Footer = () => {
       icon: <Mail size={20} />,
       href: `mailto:${contactInfo.email}`,
       label: "Email",
+    },
+    {
+      icon: <Phone size={20} />,
+      href: `tel:${contactInfo.phone}`,
+      label: "Phone",
     },
   ];
 
